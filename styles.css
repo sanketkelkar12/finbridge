@@ -1,0 +1,111 @@
+
+/* Basic Styling for the Page */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f4f4f4;
+}
+
+/* Header Section */
+header {
+    background-color: #007bff;
+    color: white;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.hero h1 {
+    margin: 0;
+    font-size: 36px;
+}
+
+.hero p {
+    font-size: 18px;
+    margin: 20px 0;
+}
+
+.cta-buttons a {
+    padding: 15px 30px;
+    background-color: #fff;
+    color: #007bff;
+    text-decoration: none;
+    border-radius: 5px;
+    margin: 0 10px;
+    font-size: 16px;
+}
+
+.cta-buttons a:hover {
+    background-color: #0056b3;
+    color: #fff;
+}
+
+/* Features Section */
+#features {
+    padding: 50px 20px;
+    text-align: center;
+    background-color: #e9ecef;
+}
+
+.features {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.feature {
+    width: 250px;
+}
+
+.feature h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+/* How It Works Section */
+#how-it-works {
+    padding: 50px 20px;
+    background-color: #ffffff;
+    text-align: center;
+}
+
+#how-it-works ol {
+    text-align: left;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+/* Testimonials Section */
+#testimonials {
+    padding: 50px 20px;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+.testimonials blockquote {
+    font-style: italic;
+    font-size: 18px;
+}
+
+.testimonials p {
+    font-weight: bold;
+}
+
+/* Footer Section */
+footer {
+    padding: 20px;
+    background-color: #007bff;
+    color: white;
+    text-align: center;
+}
+
+.socials a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+.socials a:hover {
+    text-decoration: underline;
+}
